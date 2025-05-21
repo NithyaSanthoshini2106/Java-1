@@ -1,12 +1,10 @@
 public class variableEx{
-    // Instance variable
-    int instanceVar = 10;
 
-    // Class (static) variable
+    int instanceVar = 10;
     static String staticVar = "Shared among all instances";
 
     public void display() {
-        // Local variable
+        
         double localVar = 5.5;
 
         System.out.println("Instance Variable: " + instanceVar);
