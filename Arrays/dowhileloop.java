@@ -4,19 +4,19 @@ public class dowhileloop {
 
         int[] numbers = {10, 20, 30, 40, 50};
 
-        // 1️⃣ For Loop
+        //  For Loop
         System.out.println("Using for loop:");
         for (int i = 0; i < numbers.length; i++) {
             System.out.println(numbers[i]);
         }
 
-        // 2️⃣ For-each Loop
+        //  For-each Loop
         System.out.println("\nUsing for-each loop:");
         for (int num : numbers) {
             System.out.println(num);
         }
 
-        // 3️⃣ While Loop
+        // While Loop
         System.out.println("\nUsing while loop:");
         int i = 0;
         while (i < numbers.length) {
@@ -24,7 +24,7 @@ public class dowhileloop {
             i++;
         }
 
-        // 4️⃣ Do-while Loop
+        // Do-while Loop
         System.out.println("\nUsing do-while loop:");
         int j = 0;
         do {
