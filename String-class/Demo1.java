@@ -1,0 +1,20 @@
+public class Demo1 {
+    public static void main(String[] args) {
+        // Creating strings
+        String s1 = "pro Stack";
+        String s2 = new String("Full Stack");
+        String s3 = "Academy";
+
+        // Comparing strings
+        System.out.println((s1 == s3)); 
+        System.out.println(s1.equals(s3));
+        System.out.println(s1.equals(s2)); 
+
+        // String methods
+        System.out.println(s2.length());
+        System.out.println(s2.toUpperCase());
+        System.out.println(s1.charAt(2));
+        System.out.println(s2.substring(0, 4));
+        System.out.println(s1 + " " + s2);
+    }
+}
