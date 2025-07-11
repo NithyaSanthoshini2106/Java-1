@@ -15,6 +15,6 @@ public class five implements Predicate_Two {
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(18, 31, 11, 8, 2015, 171);
         Predicate_Two p1 = new five();
-        System.out.println(p1.test(numbers));  // Output: false
+        System.out.println(p1.test(numbers));  
     }
 }
