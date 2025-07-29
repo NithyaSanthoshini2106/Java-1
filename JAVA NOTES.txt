@@ -1,0 +1,51 @@
+What is Java?
+Java is a high-level, object-oriented, and class-based programming language developed by Sun Microsystems (now owned by Oracle Corporation). 
+It was first released in 1995 and has since become one of the most widely used programming languages in the world.
+
+Common Java Applications:
+
+Web Applications (e.g., using Spring or JSP/Servlets)
+
+Mobile Applications (mainly Android apps)
+
+Desktop Applications
+
+Enterprise Software
+
+Scientific Applications
+
+Games and Embedded Systems
+
+code:
+----
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+
+
+1.JVM (Java Virtual Machine):
+A virtual machine that runs Java bytecode.
+
+2.JRE (Java Runtime Environment):
+A package that provides everything needed to run Java programs.
+
+Includes:
+
+JVM
+Core libraries
+Supporting files
+
+3.JDK (Java Development Kit):
+A complete package for Java development.
+
+Includes:
+
+JRE
+JVM
+Development tools (like javac, java, javadoc, javap, etc.)
+
+4.JIT (Just-In-Time Compiler):
+Part of the JVM.
+
