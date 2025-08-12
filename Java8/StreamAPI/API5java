@@ -1,0 +1,13 @@
+import java.util.Arrays;
+import java.util.List;
+
+public class API5 {
+    public static void main(String[] args) {
+        List<String> fruits = Arrays.asList("Banana", "Apple", "Mango");
+
+        fruits.stream()
+              .sorted()
+              .forEach(System.out::println);
+
+    }
+}
